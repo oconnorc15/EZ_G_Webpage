@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub</title>
+    <style>
+        /* General styling for the body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1b1b1b; /* Dark background color */
+            color: #ffffff; /* White text color */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling for the header */
+        header {
+            background: #ffa31a; /* Orange background */
+            color: #ffffff; /* White text */
+            padding: 20px 0; /* Vertical padding */
+            text-align: center; /* Centers the content */
+        }
+
+        header h1 {
+            margin: 0; /* Removes default margin */
+            font-size: 2.5em; /* Larger font size */
+        }
+
+        header p {
+            margin: 10px 0 0; /* Adds spacing between tagline and logo */
+            font-size: 1.2em; /* Tagline font size */
+        }
+
+        header img {
+            margin-top: 10px; /* Adds spacing above the logo */
+            width: 150px; /* Sets logo width */
+            height: auto; /* Maintains aspect ratio */
+        }
+
+        /* Styling for the game list container */
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px; /* Adds even spacing between game sections */
+            margin: 30px 0;
+        }
+
+        /* Styling for individual game items */
+        .game-item {
+            background: #292929; /* Dark gray background */
+            border-radius: 10px; /* Rounded corners */
+            padding: 20px; /* Inside padding */
+            text-align: center; /* Centered text */
+            width: 300px; /* Fixed width */
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Adds slight shadow for effect */
+        }
+
+        .game-item a {
+            text-decoration: none; /* Removes underline from links */
+            color: #ffa31a; /* Orange text color */
+            font-weight: bold; /* Bold font */
+            font-size: 1.2em; /* Slightly larger font */
+        }
+
+        .game-item p {
+            color: #808080; /* Light gray text color for descriptions */
+            margin-top: 10px; /* Adds spacing above descriptions */
+        }
+
+        /* Styling for the footer */
+        footer {
+            text-align: center; /* Centers text */
+            margin-top: 30px; /* Space above the footer */
+            padding: 15px 0; /* Vertical padding */
+            background: #ffa31a; /* Orange background */
+            color: #ffffff; /* White text color */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Header section -->
+        <h1>EZ_G Hub</h1>
+        <p>Links to browser games and game downloads</p>
+        <!-- Logo image -->
+        <img src="EZ_G.webp" alt="EZ_G Hub Logo">
+
+    </header>
+    <main>
+        <!-- Game item: GOG PC Games -->
+        <div class="game-item">
+            <a href="https://freegogpcgames.com/">GOG PC Games</a>
+            <p>DRM-free games with no activation or online connection required.</p>
+        </div>
+
+        <!-- Game item: Crazy Games -->
+        <div class="game-item">
+            <a href="https://www.crazygames.com/" target="_blank">Crazy Games</a>
+            <p>A modern collection of games similar to the old school Flash games.</p>
+        </div>
+
+        <!-- Game item: Cool Math Games -->
+        <div class="game-item">
+            <a href="https://www.coolmathgames.com/" target="_blank">Cool Math Games</a>
+            <p>Challenge your mind with puzzles.</p>
+        </div>
+
+        <!-- Game item: Windows 7 Games -->
+        <div class="game-item">
+            <a href="https://windowsxlite.com/games/" target="_blank">Windows 7 Games</a>
+            <p>Play classic Windows 7 games on Windows 10/11 OS.</p>
+        </div>
+
+        <!-- Game item: Retrostic -->
+        <div class="game-item">
+            <a href="https://www.retrostic.com/roms">Retrostic</a>
+            <p>ROM files for 7th Gen and younger consoles.</p>
+        </div>
+
+        <!-- Game item: Kongregate -->
+        <div class="game-item">
+            <a href="https://www.kongregate.com/" target="_blank">Kongregate</a>
+            <p>Find a collection of multiplayer games.</p>
+        </div>
+
+        <!-- Game item: Itch.io -->
+        <div class="game-item">
+            <a href="https://itch.io/" target="_blank">Itch.io</a>
+            <p>Indie games, some have multiplayer.</p>
+        </div>
+    </main>
+    <footer>
+        <!-- Footer section -->
+        <p>Created with Apache2 on Kali Linux by C.O'Connor</p>
+    </footer>
+</body>
+</html>
